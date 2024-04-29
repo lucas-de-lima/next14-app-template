@@ -1,8 +1,8 @@
-# My Next.js App Template
+# Next.js App Template  🌟
 
-## Welcome to My Template! 🌟
+## Welcome!
 
-This is a Next.js app template created to streamline web development projects. It includes a range of useful technologies and an elegant interface.
+This is a Next.js App Template With Typescript created to speed up web development projects. Includes a range of useful technologies for an elegant interface.
 
 ## Included Technologies
 - Next.js 🚀
@@ -17,6 +17,7 @@ This is a Next.js app template created to streamline web development projects. I
 - React Hook Form: 📝
 - Zod: 🛡️
 - Docker: 🐳
+
 ## How to Use
 Clone this repository to your local machine.
 This project is configured to use Docker, that is, you need Docker Compose installed on your system.
@@ -36,8 +37,10 @@ npm run dev
 Access the app at http://localhost:3000.
 
 
-### Contribution
+## Contribution
 If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE.md file for more details.# next14-app-template
+
+**Made by Lucas De Lima**
