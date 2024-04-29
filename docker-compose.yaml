@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  frontend:
+    container_name: app_frontend
+    build:
+      context: ./
+      target: dev
+    restart: 'always'
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
+    volumes:
+      - .:/frontend
+      - /frontend/node_modules
+      - /frontend/.next
+    ports:
+      - "3000:3000"
+    platform: linux/x86_64
+    working_dir: /app-frontend
+    healthcheck:
+      test: [ "CMD", "lsof", "-t", "-i:3000" ]
+      timeout: 10s
+      retries: 5
+    networks:
+      - network
+networks:
+  network:
+    driver: bridge
