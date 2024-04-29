@@ -43,4 +43,4 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 ## License
 This project is licensed under the MIT License. See the LICENSE.md file for more details.# next14-app-template
 
-**Made by Lucas De Lima**
+**Made by [Lucas De Lima](https://github.com/lucas-de-lima)**
