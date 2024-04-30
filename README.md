@@ -7,7 +7,6 @@ This is a Next.js App Template With Typescript created to speed up web developme
 ## Included Technologies
 - Next.js 🚀
 - Tailwind CSS 🎨
-- React ⚛️
 - ESlint: 🚦
 - Prettier: ✨
 - ESlint React Hooks: ⚛️
